@@ -34,9 +34,11 @@
     <input type="submit" value="Search" />
   </form>
 
-  <hr />
+  <hr/>
 
-  <!-- TODO #4 - Loop over the search results to display all job fields. -->
+<!--loop for search display-->
+<!--    used a fragment to copy the table in list-jobs -->
+    <th:block th:replace="~{list-jobs :: table}"></th:block>
 
 </div>
 
